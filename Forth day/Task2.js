@@ -12,6 +12,6 @@ function countCharacters(str) {
   return charCount;
 }
 
-const inputString = "hello world";
+const inputString = "   ";
 const result = countCharacters(inputString);
 console.log(result);
