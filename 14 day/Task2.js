@@ -8,7 +8,7 @@ function isInsideCircle(circle, point) {
 
 const circle1 = { center: { x: 0, y: 0 }, radius: 10 };
 const point1 = { x: 0, y: 0 };
-console.log(isInsideCircle(circle1, point1)); 
+console.log(isInsideCircle(circle1, point1));   
 const circle2 = { center: { x: 5, y: 5 }, radius: 20 };
 const point2 = { x: 5, y: 5 };
 console.log(isInsideCircle(circle2, point2));
