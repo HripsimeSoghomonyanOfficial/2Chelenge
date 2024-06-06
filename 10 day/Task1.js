@@ -7,7 +7,6 @@ function subtractMinutesFromTime(currentTime, minutesToSubtract) {
     let newHours = date.getHours();
     let newMinutes = date.getMinutes();
 
-    // Ensure two digits for hours and minutes
     newHours = newHours < 10 ? '0' + newHours : newHours;
     newMinutes = newMinutes < 10 ? '0' + newMinutes : newMinutes;
 
@@ -15,6 +14,6 @@ function subtractMinutesFromTime(currentTime, minutesToSubtract) {
 }
 
 let currentTime = "11:20";
-let minutesToSubtract = 45;
+let minutesToSubtract = 45;``
 let newTime = subtractMinutesFromTime(currentTime, minutesToSubtract);
 console.log(newTime);

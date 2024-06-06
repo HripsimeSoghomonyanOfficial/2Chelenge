@@ -1,12 +1,12 @@
 // Unshift
-Array.prototype.myUnshift = function(...elements) {
-    this.splice(0, 0, ...elements);
-    return this.length;
-};
+    Array.prototype.myUnshift = function(...elements) {
+        this.splice(0, 0, ...elements);
+        return this.length;
+    };
 
-let arr = [3, 4, 5];
-arr.myUnshift(1, 2);
-console.log(arr);
+    let arr = [3, 4, 5];
+    arr.myUnshift(1, 2);
+    console.log(arr);
 
 // // Shift
 
@@ -50,7 +50,6 @@ console.log(arr);
 //         }
 //     }
 // };
-
 // let arr = [1, 2, 3];
 // arr.myForEach((element) => console.log(element * 2));
 
