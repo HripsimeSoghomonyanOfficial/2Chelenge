@@ -16,7 +16,7 @@ function calculateLuhnCheckDigit(cardNumber) {
     let checkDigit = (10 - (sum % 10)) % 10;
     return checkDigit;
 }
-const cardNumber = "456126121234";
+const cardNumber = "2134546732456432";
 const checkDigit = calculateLuhnCheckDigit(cardNumber);
 
 console.log("Calculated check digit:", checkDigit);
